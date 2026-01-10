@@ -8,25 +8,25 @@
   color-scheme: light;
   --global-bg-color: #E8E4D0; /* Your light parchment/cream color */
   --global-code-bg-color: #{darken(#E8E4D0, 5%)}; /* Slightly darker for contrast */
-  --global-text-color: #2C1810; /* Deep brown for readability on cream */
-  --global-text-color-light: #5C4033; /* Medium brown for secondary text */
+  --global-text-color: #2F4F2F; /* DARK MOSS GREEN for primary text (was #2C1810) */
+  --global-text-color-light: #556B2F; /* Olive green for secondary text (was #5C4033) */
   --global-theme-color: #556B2F; /* Your link color - olive green */
   --global-hover-color: #6B8E23; /* Slightly brighter olive for hover */
   --global-hover-text-color: #FFFFFF;
-  --global-footer-bg-color: #5C4033; /* Deep brown */
+  --global-footer-bg-color: #2F4F2F; /* Dark moss green for footer */
   --global-footer-text-color: #E8E4D0;
   --global-footer-link-color: #C9B8A4;
-  --global-distill-app-color: #5C4033;
-  --global-divider-color: rgba(44, 24, 16, 0.1); /* Deep brown with transparency */
+  --global-distill-app-color: #2F4F2F; /* Updated to moss green */
+  --global-divider-color: rgba(47, 79, 47, 0.15); /* Moss green with transparency (was brown) */
   --global-card-bg-color: #F5F1E6; /* Slightly off-white for cards */
   --global-highlight-color: #8B4513; /* Saddle brown for highlights */
   --global-back-to-top-bg-color: rgba(
-    92, 64, 51, /* #5C4033 in RGB */
+    47, 79, 47, /* #2F4F2F in RGB - moss green */
     0.6
   );
   --global-back-to-top-text-color: #FFFFFF;
   --global-newsletter-bg-color: #F5F1E6;
-  --global-newsletter-text-color: #2C1810;
+  --global-newsletter-text-color: #2F4F2F; /* Moss green */
 
   /* Naturalist-themed notification blocks */
   --global-tip-block: #2E8B57; /* Sea green */
@@ -83,17 +83,17 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{darken(#A0826D, 10%)}; /* #8A6E5B - darker earth */
   --global-text-color: #FAF3E0; /* Soft cream for text on dark */
   --global-text-color-light: #D8C3A5; /* Light beige for secondary text */
-  --global-theme-color: #9CBA5A; /* Brighter, more vibrant olive */
-  --global-hover-color: #B3C97A; /* Light olive for hover */
-  --global-hover-text-color: #2C1810; /* Dark brown text on hover */
-  --global-footer-bg-color: #5C4033; /* Consistent deep brown */
+  --global-theme-color: #000000; /* BLACK for links as requested */
+  --global-hover-color: #2F4F2F; /* Dark moss green for hover */
+  --global-hover-text-color: #FAF3E0; /* Cream text on hover */
+  --global-footer-bg-color: #5C4033; /* Deep brown */
   --global-footer-text-color: #D8C3A5;
-  --global-footer-link-color: #9CBA5A; /* Olive links in footer */
+  --global-footer-link-color: #000000; /* Black links in footer */
   --global-distill-app-color: #D8C3A5;
   --global-divider-color: rgba(216, 195, 165, 0.3); /* Light beige divider */
   --global-card-bg-color: #8A6E5B; /* Slightly darker than background */
   --global-back-to-top-bg-color: rgba(
-    44, 24, 16, /* #2C1810 in RGB */
+    0, 0, 0, /* #000000 in RGB - black */
     0.6
   );
   --global-back-to-top-text-color: #FAF3E0;
