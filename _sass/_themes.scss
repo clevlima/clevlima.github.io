@@ -2,46 +2,51 @@
  * Themes
  ******************************************************************************/
 
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+
 @use "sass:color";
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-bg-color: #E8E4D0; /* Your light parchment/cream color */
+  --global-code-bg-color: #{darken(#E8E4D0, 5%)}; /* Slightly darker for contrast */
+  --global-text-color: #2C1810; /* Deep brown for readability on cream */
+  --global-text-color-light: #5C4033; /* Medium brown for secondary text */
+  --global-theme-color: #556B2F; /* Your link color - olive green */
+  --global-hover-color: #6B8E23; /* Slightly brighter olive for hover */
+  --global-hover-text-color: #FFFFFF;
+  --global-footer-bg-color: #5C4033; /* Deep brown */
+  --global-footer-text-color: #E8E4D0;
+  --global-footer-link-color: #C9B8A4;
+  --global-distill-app-color: #5C4033;
+  --global-divider-color: rgba(44, 24, 16, 0.1); /* Deep brown with transparency */
+  --global-card-bg-color: #F5F1E6; /* Slightly off-white for cards */
+  --global-highlight-color: #8B4513; /* Saddle brown for highlights */
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
+    92, 64, 51, /* #5C4033 in RGB */
+    0.6
   );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-back-to-top-text-color: #FFFFFF;
+  --global-newsletter-bg-color: #F5F1E6;
+  --global-newsletter-text-color: #2C1810;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  /* Naturalist-themed notification blocks */
+  --global-tip-block: #2E8B57; /* Sea green */
+  --global-tip-block-bg: #E8F5E9;
+  --global-tip-block-text: #1B5E20;
+  --global-tip-block-title: #2E8B57;
+  
+  --global-warning-block: #B8860B; /* Dark goldenrod */
+  --global-warning-block-bg: #FFF8E1;
+  --global-warning-block-text: #5D4037;
+  --global-warning-block-title: #FF8F00;
+  
+  --global-danger-block: #8B0000; /* Dark red */
+  --global-danger-block-bg: #FFEBEE;
+  --global-danger-block-text: #4A148C;
+  --global-danger-block-title: #C62828;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -78,41 +83,42 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-bg-color: #A0826D; /* Your dark terracotta/earth tone */
+  --global-code-bg-color: #{darken(#A0826D, 10%)}; /* #8A6E5B - darker earth */
+  --global-text-color: #FAF3E0; /* Soft cream for text on dark */
+  --global-text-color-light: #D8C3A5; /* Light beige for secondary text */
+  --global-theme-color: #9CBA5A; /* Brighter, more vibrant olive */
+  --global-hover-color: #B3C97A; /* Light olive for hover */
+  --global-hover-text-color: #2C1810; /* Dark brown text on hover */
+  --global-footer-bg-color: #5C4033; /* Consistent deep brown */
+  --global-footer-text-color: #D8C3A5;
+  --global-footer-link-color: #9CBA5A; /* Olive links in footer */
+  --global-distill-app-color: #D8C3A5;
+  --global-divider-color: rgba(216, 195, 165, 0.3); /* Light beige divider */
+  --global-card-bg-color: #8A6E5B; /* Slightly darker than background */
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
+    44, 24, 16, /* #2C1810 in RGB */
+    0.6
   );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-back-to-top-text-color: #FAF3E0;
+  --global-newsletter-bg-color: #8A6E5B;
+  --global-newsletter-text-color: #FAF3E0;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #215d42;
-  --global-tip-block-text: #beffe2;
-  --global-tip-block-title: #e2f5ec;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #6b5900;
-  --global-warning-block-text: #fff2af;
-  --global-warning-block-title: #fff8d8;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #600;
-  --global-danger-block-text: #ffb9b9;
-  --global-danger-block-title: #ffe0e0;
+  /* Dark theme notification blocks - deeper earth tones */
+  --global-tip-block: #4CAF50; /* Vibrant green */
+  --global-tip-block-bg: #1B5E20;
+  --global-tip-block-text: #C8E6C9;
+  --global-tip-block-title: #A5D6A7;
+  
+  --global-warning-block: #FFB74D; /* Warm amber */
+  --global-warning-block-bg: #5D4037;
+  --global-warning-block-text: #FFECB3;
+  --global-warning-block-title: #FFD54F;
+  
+  --global-danger-block: #EF5350; /* Soft red */
+  --global-danger-block-bg: #4A148C;
+  --global-danger-block-text: #FFCDD2;
+  --global-danger-block-title: #EF9A9A;
 
   .only-light {
     display: none;
