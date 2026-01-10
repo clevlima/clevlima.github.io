@@ -2,20 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Cleverson de Sousa Lima
+title: Midgecal
 first_name: Cleverson
-middle_name: de Sousa
+# middle_name: de Sousa
 last_name: Lima
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Exploring organismal responses to environmental stress across ecology, physiology, and genomics with a naturalist perspective.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://github.com/alshedivat/al-folio" target="_blank">Jekyll theme</a>
 keywords: biology, ecology, physiology, genomics, naturalist
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-# icon: 🧬 # removed per request
-
+icon: 🍃
 url: https://midgecal.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -27,10 +24,10 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-profile-trophy
+repo_theme_light: default
+repo_theme_dark: dark 
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -70,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-J3EGCC0QSG # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -83,7 +80,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Midgecal # blog_name will be displayed in your blog page
-blog_description: a naturalist site exploring organismal responses to environmental stress
+blog_description: Hot topics in thermal biology and adaptations to extreme environments
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
