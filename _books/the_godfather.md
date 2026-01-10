@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Phenotypic Plasticity of Insects: Mechanisms and Consequences. Science Publishers, Enfield, NH. 894 pp.
+title: Phenotypic Plasticity of Insects: Mechanisms and Consequences
 author: Whitman, D. W. and T. N. Ananthakrishnan (Eds.)
 cover: 
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
