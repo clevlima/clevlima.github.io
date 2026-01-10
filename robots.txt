@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://clevlima.github.io/sitemap.xml
+Sitemap: https://midgecal.com/sitemap.xml
