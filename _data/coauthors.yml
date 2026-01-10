@@ -1,34 +1,69 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"szegner-sigal":
+  - firstname: ["Andre", "Andre Szejner-Sigal"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=BbyUQp4AAAAJ&hl=en&oi=ao
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"michel":
+  - firstname: ["Andy", "Andy Michel"]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"linnen":
+  - firstname: ["Catherine", "Catherine Linnen"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=IMPsomcAAAAJ&hl=en&oi=ao
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"colinet":
+  - firstname: ["Hervé", "Hervé Colinet"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=9dQJFiQAAAAJ&hl=en&oi=ao
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"devlin":
+  - firstname: ["Jack", "Jack Devlin"]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"ferguson":
+  - firstname: ["Jake", "Jake Ferguson"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=NsW7MycAAAAJ&hl=en&oi=ao
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"gantz":
+  - firstname: ["JD", "JD Gantz"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=7g2-tkUAAAAJ&hl=en&oi=ao
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"smith":
+  - firstname: ["Jeramiah", "Jeramiah Smith"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=KG3Kl6IAAAAJ&hl=en&oi=ao
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"lecheta":
+  - firstname: ["Melise", "Melise Lecheta"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=494LMi8AAAAJ&hl=en
+
+"aquilino":
+  - firstname: ["Mónica", "Mónica Aquilino"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=PFMQS_IAAAAJ&hl=en&oi=sra
+
+"teets":
+  - firstname: ["Nick", "Nick Teets", "Nicholas Teets", "Nicholas M. Teets" ]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=o6ok_M0AAAAJ&hl=en&oi=sra
+
+"frandsen":
+  - firstname: ["Paul", "Paul Frandsen"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=_a78jyIAAAAJ&hl=en&oi=ao
+
+"convey":
+  - firstname: ["Peter", "Peter Convey"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=mwlZ7uAAAAAJ&hl=en&oi=ao
+
+"cecconi":
+  - firstname: ["Samuel", "Samuel Cecconi"]
+    # Note: Could not locate a reliable page
+
+"hayward":
+  - firstname: ["Scott", "Scott Hayward"]
+    url: https://www.birmingham.ac.uk/staff/profiles/biosciences/hayward-scott
+
+"hotaling":
+  - firstname: ["Scott", "Scott Hotaling"]
+    url: https://scholar-google-com.ezproxy.uky.edu/citations?user=t2vn5dAAAAAJ&hl=en&oi=ao
+
+"pavanato":
+  - firstname: ["Vitor", "Vitor Pavanato"]
+    url: https://github.com/vitorpavinato
+
+"karawasaki":
+  - firstname: ["Yuta", "Yuta Kawasaki"]
+    url: https://gustavus.edu/our-people/yuta-kawarasaki
