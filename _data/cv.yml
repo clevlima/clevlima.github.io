@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Cleverson Lima
-    - name: Date of Birth
-      value: November 1998
     - name: Languages
       value: Portuguese, English, Spanish
 
@@ -15,35 +13,28 @@
       institution: University of Kentucky, United States
       year: 2024-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: MS in Entomology 
-      institution: University of Kentucky, United States
-      year: 2023
+        - Adaptations to extreme environments in Antarctic midges
+        - Dissertation Committee: Catherine Linnen (Chair), Nicholas Teets (Co-advisor), Jeramiah Smith (Co-advisor), Jake Ferguson
+    - title: Bachelor of Science in Biology 
+      institution: Universidade Cidade de São Paulo, Brasil
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Stress physiology of leaf-cutting ants
 
-- title: Experience
+- title: Teaching
   type: time_table
   contents:
     - title: Teaching assistant, Physiology
       institution: University of Kentucky, United States
-      year: 2024
+      year: 2024-2025
       description:
-        - Description 1.
-        - Description 2.
+        - Taught physiology lab for a total of 95 students 
     
     - title: Teaching assistant, Entomology
       institution: University of Kentucky, United States
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Assisted with field work and insect identifications
  
 - title: Open Source Projects
   type: time_table
@@ -70,12 +61,12 @@
   contents:
     - title: Ecophysiology
       items:
-        - Description 1.
-        - Description 2.
+        - What is the extent and limits of phenotypic plasticity? 
+        - Is there such thing as "preadaptation" to climate change? If yes, how does it mechanistically work?
     - title: Ecological genetics
       items:
-        - Description 1.
-        - Description 2.
+        - Is phenotypic plasticity really "adaptative"? 
+        - Natural selection (in all shapes and forms)
 
 - title: Other Interests
   type: list
